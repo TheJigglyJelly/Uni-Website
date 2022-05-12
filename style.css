@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+.pager{
+        height: 100vh;
+        width: 100%;
+        padding: 1%;
+        position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{width: 200;}
+
+.banner-links{
+    padding: 30px 0;
+}
+
+.banner-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.banner-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+
+.banner-links li a::after{
+    content: " ";
+    background: wheat;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.banner-links li a:hover::after{
+    width: 100%;
+}
+
+.background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.First-Title-Page{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: indigo;
+    text-align: center;
+    padding-bottom: 1%;
+    text-shadow: 0 0 lightblue;
+    transition: text-shadow 0.5s;
+}
+
+
+.First-Title-Page:hover{
+    text-shadow: 4px 4px lightblue;
+}
+
+.Main-Text-First{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: indigo;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 15px;
+    background: 0px;
+    transition: background-color 1s;
+}
+
+.Main-Text-First:hover{
+    background-color: wheat;
+}
+
+.What-Is-Cyber-Head{
+    position: absolute;
+    left: 5%;
+    bottom: 65%;
+    
+    font-size: 30px;
+    color: indigo;
+    text-align: left;
+    padding-bottom: 1%;
+    text-shadow: 0 0 lightblue;
+    transition: text-shadow 0.5s;
+}
+
+.What-Is-Cyber-Head:hover{
+    text-shadow: 4px 4px lightblue;
+}
+
+.What-Is-Cyber-Explanation{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    font-size: 25px;
+    color: indigo;
+    text-align: left;
+    margin: 10px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 15px;
+    background: 0px;
+    width: 400px;
+    transition: background-color 1s;
+}
+
+.What-Is-Cyber-Explanation:hover{
+    background-color: wheat;
+}
+
+.Video-Placement{
+    position: absolute;
+    padding: 10px;
+    transform: translate(100%,50%);
+    background: white;
+    transition: background-color 1s;
+}
+
+.Video-Placement:hover{
+    background-color: salmon;
+}
+
+.implimentations-intro{
+    position: absolute;
+    left: 5%;
+    bottom: 1%;
+    font-size: 25px;
+    color: indigo;
+    text-align: left;
+    margin: 10px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 15px;
+    background: 0px;
+    width: 400px;
+    transition: background-color 1s;
+}
+
+.implimentations-intro:hover{
+    background-color: wheat; 
+}
+
+.poster{
+    position: absolute;
+    width: 400px;
+    left: 40%;
+    bottom: 20%;
+    background-color: wheat;
+    padding: 4px;
+    border-radius: 15px;
+    transition: left 1s;
+}
+
+.poster:hover{
+    width: 900px;
+    left: 5%;
+    bottom: 5%;
+}
+
+.Why-Is-Cyber-Important{
+    position: absolute;
+    left: 5%;
+    bottom: 6%;
+    font-size: 25px;
+    color: indigo;
+    text-align: left;
+    margin: 10px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 15px;
+    background: 0px;
+    width: 400px;
+    transition: background-color 1s;  
+}
+
+.Why-Is-Cyber-Important:hover{
+    background-color: wheat; 
+}
